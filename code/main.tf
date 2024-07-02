@@ -6,13 +6,6 @@ terraform {
     }
   }
 }
-backend "azurerm" {
-  resource_group_name = "terraformstaging-rg"
-  storage_account_name = "terraformstagingacc1"
-  container_name = "tfstate"
-  key = "terraform.tfstate"
- }
-
 provider "azurerm" {
   features {}
 }

@@ -1,7 +1,7 @@
 variable "resourcegroup_name" {
   type        = string
   description = "The name of the resource group"
-  default     = "devops-rg"
+  default     = "devops-rgyt77767"
 }
 
 variable "location" {
@@ -15,14 +15,14 @@ variable "tags" {
   description = "Tags used for the deployment"
   default = {
     "Environment" = "Lab"
-    "Owner"       = "Tejas"
+    "Owner"       = "dk"
   }
 }
 
 variable "vnet_name" {
   type        = string
   description = "The name of the vnet"
-  default     = "VNET-Terraform"
+  default     = "VNET-Terraformgygygy"
 }
 
 variable "vnet_address_space" {
